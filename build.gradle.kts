@@ -24,6 +24,7 @@ dependencies {
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("org.postgresql:postgresql")
 	annotationProcessor("org.projectlombok:lombok")
+	implementation("org.modelmapper:modelmapper:2.3.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
